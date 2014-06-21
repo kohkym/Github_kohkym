@@ -27,6 +27,11 @@
 		520DC5C419553F5400ED0465 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DC5C319553F5400ED0465 /* WebViewController.m */; };
 		52BAE343195544D60069DB89 /* MyUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BAE342195544D60069DB89 /* MyUIApplication.m */; };
 		52BAE346195549A90069DB89 /* SharedDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BAE345195549A90069DB89 /* SharedDataManager.m */; };
+		52BAE3481955715C0069DB89 /* IMG_for_top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52BAE3471955715C0069DB89 /* IMG_for_top.jpg */; };
+		52BAE34A195576F70069DB89 /* fukidashi.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BAE349195576F70069DB89 /* fukidashi.png */; };
+		52BAE350195579190069DB89 /* read_timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BAE34F195579190069DB89 /* read_timeline.png */; };
+		52BAE35219557B460069DB89 /* twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BAE35119557B460069DB89 /* twitter_logo.png */; };
+		52BAE35419557B540069DB89 /* client_name.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BAE35319557B540069DB89 /* client_name.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,11 @@
 		52BAE342195544D60069DB89 /* MyUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIApplication.m; sourceTree = "<group>"; };
 		52BAE344195549A90069DB89 /* SharedDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedDataManager.h; sourceTree = "<group>"; };
 		52BAE345195549A90069DB89 /* SharedDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedDataManager.m; sourceTree = "<group>"; };
+		52BAE3471955715C0069DB89 /* IMG_for_top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_for_top.jpg; path = ../../IMG_for_top.jpg; sourceTree = "<group>"; };
+		52BAE349195576F70069DB89 /* fukidashi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fukidashi.png; path = ../../fukidashi.png; sourceTree = "<group>"; };
+		52BAE34F195579190069DB89 /* read_timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = read_timeline.png; path = ../../read_timeline.png; sourceTree = "<group>"; };
+		52BAE35119557B460069DB89 /* twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_logo.png; path = ../../twitter_logo.png; sourceTree = "<group>"; };
+		52BAE35319557B540069DB89 /* client_name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = client_name.png; path = ../../client_name.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,11 @@
 		520DC57C19537CC600ED0465 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52BAE35319557B540069DB89 /* client_name.png */,
+				52BAE35119557B460069DB89 /* twitter_logo.png */,
+				52BAE34F195579190069DB89 /* read_timeline.png */,
+				52BAE349195576F70069DB89 /* fukidashi.png */,
+				52BAE3471955715C0069DB89 /* IMG_for_top.jpg */,
 				520DC57D19537CC600ED0465 /* Kotory 3-Info.plist */,
 				520DC57E19537CC600ED0465 /* InfoPlist.strings */,
 				520DC58119537CC600ED0465 /* main.m */,
@@ -259,8 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				520DC58E19537CC600ED0465 /* Images.xcassets in Resources */,
+				52BAE35419557B540069DB89 /* client_name.png in Resources */,
 				520DC58019537CC600ED0465 /* InfoPlist.strings in Resources */,
 				520DC58919537CC600ED0465 /* Main.storyboard in Resources */,
+				52BAE34A195576F70069DB89 /* fukidashi.png in Resources */,
+				52BAE35219557B460069DB89 /* twitter_logo.png in Resources */,
+				52BAE350195579190069DB89 /* read_timeline.png in Resources */,
+				52BAE3481955715C0069DB89 /* IMG_for_top.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,6 +21,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -38,7 +39,7 @@
                                                         ACAccount *account = self.twitterAccounts[0];
                                                         self.identifier = account.identifier;
                                                         dispatch_async(dispatch_get_main_queue(), ^{
-                                                            self.accountDisplayLabel.text = account.username;
+                                                            self.accountDisplayLabel.text = [NSString stringWithFormat:@"@%@", account.username];
                                                         });
                                                     } else {
                                                         dispatch_async(dispatch_get_main_queue(), ^{
