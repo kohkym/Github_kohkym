@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  Kotory 3
+//  TwitterClient01
 //
-//  Created by Kohki Miura on 2014/06/20.
-//  Copyright (c) 2014年 ___FULLUSERNAME___. All rights reserved.
+//  Created by Satoshi Nakagawa on 2014/04/12.
+//  Copyright (c) 2014年 nakasen.com. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -13,9 +13,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.navigationController = (UINavigationController *)self.window.rootViewController;
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -24,7 +25,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

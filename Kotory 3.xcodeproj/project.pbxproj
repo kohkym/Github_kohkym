@@ -21,6 +21,12 @@
 		520DC59719537CC700ED0465 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520DC57919537CC600ED0465 /* UIKit.framework */; };
 		520DC59F19537CC700ED0465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520DC59D19537CC700ED0465 /* InfoPlist.strings */; };
 		520DC5A119537CC700ED0465 /* Kotory_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DC5A019537CC700ED0465 /* Kotory_3Tests.m */; };
+		520DC5B019537F1A00ED0465 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DC5AF19537F1A00ED0465 /* TimeLineCell.m */; };
+		520DC5BE1953828300ED0465 /* TimeLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DC5BD1953828300ED0465 /* TimeLineTableViewController.m */; };
+		520DC5C1195519D500ED0465 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DC5C0195519D500ED0465 /* DetailViewController.m */; };
+		520DC5C419553F5400ED0465 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DC5C319553F5400ED0465 /* WebViewController.m */; };
+		52BAE343195544D60069DB89 /* MyUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BAE342195544D60069DB89 /* MyUIApplication.m */; };
+		52BAE346195549A90069DB89 /* SharedDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BAE345195549A90069DB89 /* SharedDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		520DC59C19537CC700ED0465 /* Kotory 3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kotory 3Tests-Info.plist"; sourceTree = "<group>"; };
 		520DC59E19537CC700ED0465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		520DC5A019537CC700ED0465 /* Kotory_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kotory_3Tests.m; sourceTree = "<group>"; };
+		520DC5AE19537F1A00ED0465 /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		520DC5AF19537F1A00ED0465 /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
+		520DC5BC1953828300ED0465 /* TimeLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTableViewController.h; sourceTree = "<group>"; };
+		520DC5BD1953828300ED0465 /* TimeLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTableViewController.m; sourceTree = "<group>"; };
+		520DC5BF195519D500ED0465 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		520DC5C0195519D500ED0465 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		520DC5C219553F5400ED0465 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		520DC5C319553F5400ED0465 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		52BAE341195544D60069DB89 /* MyUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIApplication.h; sourceTree = "<group>"; };
+		52BAE342195544D60069DB89 /* MyUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIApplication.m; sourceTree = "<group>"; };
+		52BAE344195549A90069DB89 /* SharedDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedDataManager.h; sourceTree = "<group>"; };
+		52BAE345195549A90069DB89 /* SharedDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +137,18 @@
 				520DC58B19537CC600ED0465 /* ViewController.m */,
 				520DC58D19537CC600ED0465 /* Images.xcassets */,
 				520DC57C19537CC600ED0465 /* Supporting Files */,
+				520DC5AE19537F1A00ED0465 /* TimeLineCell.h */,
+				520DC5AF19537F1A00ED0465 /* TimeLineCell.m */,
+				520DC5BC1953828300ED0465 /* TimeLineTableViewController.h */,
+				520DC5BD1953828300ED0465 /* TimeLineTableViewController.m */,
+				520DC5BF195519D500ED0465 /* DetailViewController.h */,
+				520DC5C0195519D500ED0465 /* DetailViewController.m */,
+				520DC5C219553F5400ED0465 /* WebViewController.h */,
+				520DC5C319553F5400ED0465 /* WebViewController.m */,
+				52BAE341195544D60069DB89 /* MyUIApplication.h */,
+				52BAE342195544D60069DB89 /* MyUIApplication.m */,
+				52BAE344195549A90069DB89 /* SharedDataManager.h */,
+				52BAE345195549A90069DB89 /* SharedDataManager.m */,
 			);
 			path = "Kotory 3";
 			sourceTree = "<group>";
@@ -249,9 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520DC5B019537F1A00ED0465 /* TimeLineCell.m in Sources */,
 				520DC58C19537CC600ED0465 /* ViewController.m in Sources */,
+				520DC5C1195519D500ED0465 /* DetailViewController.m in Sources */,
+				520DC5C419553F5400ED0465 /* WebViewController.m in Sources */,
+				52BAE343195544D60069DB89 /* MyUIApplication.m in Sources */,
 				520DC58619537CC600ED0465 /* AppDelegate.m in Sources */,
 				520DC58219537CC600ED0465 /* main.m in Sources */,
+				52BAE346195549A90069DB89 /* SharedDataManager.m in Sources */,
+				520DC5BE1953828300ED0465 /* TimeLineTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +492,7 @@
 				520DC5A619537CC700ED0465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		520DC5A719537CC700ED0465 /* Build configuration list for PBXNativeTarget "Kotory 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				520DC5A919537CC700ED0465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
