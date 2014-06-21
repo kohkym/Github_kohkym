@@ -10,7 +10,7 @@
 
 @implementation TimeLineCell
 
-/*- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
@@ -65,7 +65,7 @@
     = CGRectMake(x1 + imageX + x2, y1 + self.tweetTextLabelHeight + y2, tweetTextLabelX, nameLabelY);
 }
 
-*/
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {

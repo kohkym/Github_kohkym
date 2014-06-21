@@ -174,6 +174,8 @@
         
         NSString *tweetText = self.timeLineData[indexPath.row][@"text"];
         NSAttributedString *attributedTweetText = [sharedManager attributedText:tweetText];
+        NSLog(@"\n\n\n\n%@\n\n\n\n", attributedTweetText);
+        
         
         cell.tweetTextLabel.attributedText = attributedTweetText;
         cell.nameLabel.text = self.timeLineData[indexPath.row][@"user"][@"screen_name"];

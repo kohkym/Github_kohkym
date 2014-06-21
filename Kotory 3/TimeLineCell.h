@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SharedDataManager.h"
 
 
 @interface TimeLineCell : UITableViewCell
